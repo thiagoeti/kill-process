@@ -1,0 +1,13 @@
+# -- ----- ----- -----
+
+# apache
+
+*/10 * * * * root bash "/data/kill-process/apache.sh" ;
+
+# -- ----- ----- -----
+
+# mysql
+
+*/5 * * * * root bash "/data/kill-process/mysql.sh" ;
+
+# -- ----- ----- -----
